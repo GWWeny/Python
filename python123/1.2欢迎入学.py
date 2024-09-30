@@ -1,0 +1,16 @@
+name=input()
+print("|++++++++++++++++++++++|")
+print("|                      |")
+print("|   Welcome to WHUT    |")
+print("|                      |")
+print("|++++++++++++++++++++++|")
+print("欢迎您，%s同学！" % name)
+
+
+name=input()
+print("|++++++++++++++++++++++|")
+print("|                      |")
+print("|   Welcome to WHUT    |")
+print("|                      |")
+print("|++++++++++++++++++++++|")
+print("欢迎您，{}同学！".format(name))

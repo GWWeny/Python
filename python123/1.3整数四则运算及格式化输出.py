@@ -1,0 +1,6 @@
+x=int(input())
+y=int(input())
+print("{} + {} = {}".format(str(x),str(y),x+y))
+print("{} - {} = {}".format(str(x),str(y),x-y))
+print("{} * {} = {}".format(str(x),str(y),x*y))
+print("{} / {} = {}".format(str(x),str(y),x/y))
