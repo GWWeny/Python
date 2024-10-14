@@ -4,4 +4,6 @@ print(data)
 user={'film1','film2','film3'}
 similarUser,films=max(data.items(), key=lambda item:(item[1]!=user,len(item[1]&user)))
 print(similarUser)
+a_dict = {'server': 'db.diveintopython3.org', 'database': 'mysql'}
+print(a_dict)
 
