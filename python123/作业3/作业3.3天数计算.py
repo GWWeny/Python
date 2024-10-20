@@ -1,0 +1,9 @@
+year,month=eval(input())
+days=[29,31,28,31,30,31,30,31,31,30,31,30,31]
+if(year%4==0):
+    if(month==2):
+        print(days[0])
+    else:
+        print(days[month])
+else:
+    print(days[month])
